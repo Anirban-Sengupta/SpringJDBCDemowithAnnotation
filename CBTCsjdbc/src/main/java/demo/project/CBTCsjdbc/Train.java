@@ -34,5 +34,9 @@ public class Train {
 		Length = length;
 		Type = type;
 	}
+	@Override
+	public String toString() {
+		return "Train{" + "Id=" + Id + " " + ", Length=" + Length + " " + ", Type= " + Type + '}';
+	}
 
 }
