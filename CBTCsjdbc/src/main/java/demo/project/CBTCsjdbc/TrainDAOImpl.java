@@ -16,11 +16,11 @@ public class TrainDAOImpl implements TrainDAO {
 	
 	private JdbcTemplate jdbcTemp;
 
-	private final String GET_ALL_TRAIN = "select * from Train";
-	private final String GET_TRAIN_BY_ID = "select * from Train WHERE Id = ?";
-	private final String CREATE_TRAIN = "insert into Train (Id, Length, Type) values (?,?,?)";
-	private final String UPDATE_TRAIN = "update Train set Length = ? , Type = ? WHERE Id = ?";
-	private final String DELETE_TRAIN = "delete from Train WHERE id = ?";
+	private final String GET_ALL_TRAIN = "select * from train";
+	private final String GET_TRAIN_BY_ID = "select * from train WHERE Id = ?";
+	private final String CREATE_TRAIN = "insert into train (Id, Length, Type) values (?,?,?)";
+	private final String UPDATE_TRAIN = "update train set Length = ? , Type = ? WHERE Id = ?";
+	private final String DELETE_TRAIN = "delete from train WHERE id = ?";
 	
 	@Autowired
 	public TrainDAOImpl(DataSource dataSource) {
