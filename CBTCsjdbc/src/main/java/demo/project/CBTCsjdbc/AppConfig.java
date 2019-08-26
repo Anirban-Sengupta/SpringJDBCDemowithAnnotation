@@ -20,7 +20,7 @@ public class AppConfig {
 	
 	private final String DRIVER = "driver";
 	private final String URL = "url";
-	private final String USER = "usern";
+	private final String USER = "user";
 	private final String PASSWORD = "password";
 	
 	@Bean
